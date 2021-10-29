@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a class="img-logo" href="./index.html" aria-label="logo"
+          ><img src="./img/logo.svg" alt="logo" />
+        </a>
+        <nav class="menu">
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-btn" for="menu-toggle">
+            <span></span>
+          </label>
+          <ul class="menubox">
+            <li class="menu-list-item">
+              <a class="menu-item" href="#">What’s New</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item current" href="#">Men</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item" href="#">Women</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item" href="#">Kids</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item" href="#">Personalize</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item" href="#">Collections</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item" href="#">Sales</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="menu-item img-search" href="#"
+                ><img src="./img/search.svg" alt="search" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a class="img-basket" href="#" aria-label="Basket"
+          ><img src="./img/basket.svg" alt="basket" />
+        </a>
+      </div>
+
+      <section class="goods-card">
+        <h2 class="goods-title">Nike Lebron 17</h2>
+        <p class="goods-text">
+          A large Max Air unit in heel and <b>Zoom Air</b> technology under the
+          forefoot
+        </p>
+
+        <div class="goods-img">
+          <ul class="slider">
+            <li class="slider-item current"></li>
+            <li class="slider-item"></li>
+            <li class="slider-item"></li>
+            <li class="slider-item"></li>
+          </ul>
+          <img src="./img/goods.jpg" alt="Card of goods" />
+        </div>
+
+        <select id="size" name="size">
+          <option value="EU41">EU 41</option>
+          <option value="EU42">EU 42</option>
+          <option value="EU43" selected>EU 43</option>
+          <option value="EU44">EU 44</option>
+          <option value="EU45">EU 45</option>
+        </select>
+        <div class="card-price">
+          <button class="btn-basket">Add to basket</button>
+          <p class="price">$249</p>
+        </div>
+      </section>
+      <ul class="helper">
+        <li class="helper-item"><img src="./img/Info.svg" alt="Info" /></li>
+        <li class="helper-item">
+          <img src="./img/delivery.svg" alt="Delivery" />
+        </li>
+        <li class="helper-item">
+          <p class="rait">4.7</p>
+          <img src="./img/Star.svg" alt="Raiting" />
+        </li>
+      </ul>
+    </div>    
+  </body>
+</html>
