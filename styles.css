@@ -24,7 +24,7 @@ img {
 }
 @media screen and (min-width: 769px) {
   .container {
-    width: 100%;
+    position: relative;
     padding: 40px 44px 44px 50px;
   }
 }
@@ -142,7 +142,7 @@ img {
 }
 @media screen and (min-width: 769px) {
   .menu-list-item:not(:last-child) {
-    margin-right: 45px;
+    margin-right: 40px;
   }
 }
 
@@ -176,7 +176,7 @@ img {
 
 @media screen and (min-width: 769px) {
   .menu-item {
-    font-size: 21px;
+    font-size: 15px;
   }
 }
 .img-search {
@@ -242,7 +242,7 @@ img {
 @media screen and (min-width: 769px) {
   .goods-text {
     margin-left: 130px;
-    width: 240px;
+    width: 220px;
   }
 }
 #size {
@@ -306,10 +306,13 @@ img {
 @media screen and (min-width: 769px) {
   .goods-img {
     position: absolute;
-    top: 170px;
-    left: 567px;
-    width: 718px;
-    height: 577px;
+    top: 87px;
+    left: 523px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    width: 550px;
+    height: 550px;
     z-index: -1;
   }
 }
